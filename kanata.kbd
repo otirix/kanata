@@ -49,9 +49,9 @@
 ;; `Symbols` layer
 
 ;; (include deflayer/symbols_noop.kbd)  ;; AltGr stays as-is
-(include deflayer/symbols_lafayette.kbd)  ;; AltGr programmation layer like Ergo‑L
+;; (include deflayer/symbols_lafayette.kbd)  ;; AltGr programmation layer like Ergo‑L
 ;; (include deflayer/symbols_noop_num.kbd)  ;; AltGr stays as-is + NumRow layers
-;; (include deflayer/symbols_lafayette_num.kbd)  ;; AltGr prog layer + NumRow layers
+(include deflayer/symbols_lafayette_num.kbd)  ;; AltGr prog layer + NumRow layers
 
 
 ;;-----------------------------------------------------------------------------
@@ -64,7 +64,7 @@
 ;; Mapped on [Space]+[P] in both navigation layers.
 
 ;; (defalias run M-p)  ;; [Command]-[P]
-(defalias run XX)  ;; do nothing
+(defalias run M-spc)  ;; do nothing
 
 
 ;;-----------------------------------------------------------------------------
@@ -72,8 +72,8 @@
 ;; Depends on PC/Mac and keyboard layout
 
 ;; (include defalias/ergol_pc.kbd)  ;; Ergo‑L PC
-(include defalias/qwerty-lafayette_pc.kbd)  ;; Qwerty‑Lafayette PC
-;; (include defalias/qwerty_pc.kbd)  ;; Qwerty / Colemak PC
+;; (include defalias/qwerty-lafayette_pc.kbd)  ;; Qwerty‑Lafayette PC
+(include defalias/qwerty_pc.kbd)  ;; Qwerty / Colemak PC
 ;; (include defalias/qwerty_mac.kbd)  ;; Qwerty / Colemak Mac
 ;; (include defalias/azerty_pc.kbd)  ;; Azerty PC
 ;; (include defalias/qwertz_pc.kbd)  ;; Qwertz PC
